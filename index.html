@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Survey Form</title>
+
+<link rel="stylesheet" type="text/css" href="CSS/survey.css">
+  </head>
+
+  <body>
+
+<h1 id="title">Survey Form</h1>
+<p id="description"><em> Thank you for taking the time to help us improve the platform</em> </p>
+
+<form for="name" id="survey-form">
+  <label id="name-label">
+<p> Name </p>
+</label>
+
+<input id="name" type="text" placeholder="Enter your name" size="30">
+
+<label for="email" id="email-label">
+  <p> E-mail </p>
+</label>
+
+  <input id="email" type="email" placeholder="Enter your email" size="30" required>
+
+<label for="number" id="number-label">
+    <p> Age </p>
+    </label>
+
+    <input id="number" type="number"placeholder="Enter your age" min="15" max="80" size="30"required>
+
+<p>Who is your favorite director ?</p>
+<select id="dropdown">
+<option value="default">None of them</option>
+<option value="Steven Spielberg">Steven Spielberg</option>
+<option value="Alfred Hitchcock">Alfred Hitchcock</option>
+<option value="Quentin Tarantino">Quentin Tarantino</option>
+<option value="George Lucas">George Lucas</option>
+</select>
+
+<p> What is your Steven Spielberg favorite movie ?</p>
+<input type="radio"name="movies" value="1">Men in Black</input>
+
+<input type="radio"name="movies" value="2">War of the Worlds</input>
+
+<input type="radio"name="movies" value="3">Catch Me If You Can</input>
+
+<input type="radio"name="movies" value="4">Jurassic Park</input>
+
+<input type="radio"name="movies" value="5">Indiana Jones</input>
+
+<p>When was Steven Spielberg born ?</p>
+<input type="checkbox" value="1" name="dates">8.2.1945</input>
+<br>
+<input type="checkbox" value="1" name="dates">18.6.1943</input>
+<br>
+<input type="checkbox" value="1" name="dates">18.12.1946</input>
+<br>
+
+<textarea rows="4" cols="40" placeholder="Comment" maxlength="180"></textarea>
+<br>
+<input type="submit" value="Submit">
+
+
+
+  </form>
+
+    </body>
+
+</html>
